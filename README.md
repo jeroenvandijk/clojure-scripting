@@ -15,6 +15,7 @@ examples/helloworld.clj  0.01s user 0.01s system 65% cpu 0.035 total
 
 Only the first time the server needs to be booted:
 ```
+time examples/helloworld.clj
 *** starting scripting server *** [1163ms]
 
 Hello World!
