@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+java -jar $DIR/clojure-script-server.jar $DIR $1
+
+# Testing
+# cd $(cd ${DIR}; cd ..; pwd)
+# # clj -i $(cd ${DIR}; cd ..; pwd)/client/src/clojure/scripting/client.clj $DIR/clojure-script-server 49998 $1
+# echo "clj -m clojure.scripting.server/start-script-server $DIR/bin $1"
+# clj -m clojure.scripting.server $DIR $1
