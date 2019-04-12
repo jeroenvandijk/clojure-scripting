@@ -1,6 +1,6 @@
 # Clojure scripting
 
-Using Clojure for scripting... Yes we have Planck and Lumo, but what if we would have JVM Clojure with super fast boottime?
+Using Clojure for scripting... Yes we have Planck and Lumo, but what if we could have JVM Clojure with super fast boottime?
 
 By using GraalVM to generate a thin client that talks to a JVM process via Clojure prepl we can have this!
 
