@@ -23,7 +23,7 @@ examples/helloworld.clj  0.03s user 0.04s system 5% cpu 1.257 total
  
 ## Installation
  
-Assumption is that you have `boot-clj` [(see instructions)[https://github.com/boot-clj/boot#install]], `make` installed. And that you have a (GraalVM distribution)[https://github.com/oracle/graal/releases/tag/vm-1.0.0-rc15] under `~/bin/graalvm-ce-1.0.0-rc15`.
+Assumption is that you have `boot-clj` [[see instructions](https://github.com/boot-clj/boot#install)], `make` installed. And that you have a [GraalVM distribution](https://github.com/oracle/graal/releases/tag/vm-1.0.0-rc15) under `~/bin/graalvm-ce-1.0.0-rc15`.
  
 ```
 make client-binary
