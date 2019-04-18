@@ -12,5 +12,16 @@ server-jar:
 	boot build && \
 	mv target/clojure-scripting-server-0.1.0-SNAPSHOT-standalone.jar ../bin/clojure-script-server.jar
 		
+self-hosted1-binary:
+	cd self-hosted1 && \
+	boot build && \
+	~/bin/graalvm-ce-1.0.0-rc15/Contents/Home/bin/native-image  --language:js -jar target/clojure-scripting-client-0.1.0-SNAPSHOT-standalone.jar; \
+		
+self-hosted2-binary:
+	cd self-hosted2 && \
+	boot build && \
+	~/bin/graalvm-ce-1.0.0-rc15/Contents/Home/bin/native-image  --language:js -jar target/clojure-scripting-client-0.1.0-SNAPSHOT-standalone.jar; \
+		
 
+	
 	

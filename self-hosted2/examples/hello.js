@@ -1,0 +1,1 @@
+"hi " + (1000 * 100) + " something" + " ,,, " + sayHello()
