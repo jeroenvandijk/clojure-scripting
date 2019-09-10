@@ -1,4 +1,4 @@
-#!/usr/bin/env bin/clojure-script
+#!/usr/bin/env ../bin/clojure-script
 
 (dotimes [i 50]
   (print (repeat (rand-int 15) "."))
